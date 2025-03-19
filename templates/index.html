@@ -18,7 +18,7 @@
 
     <script>
         function fetchData() {
-            fetch("/data")
+            fetch("https://trafficprediction-fyav.onrender.com")
                 .then(response => response.json())
                 .then(data => {
                     document.getElementById("traffic_count").innerText = data.traffic.traffic_count;
