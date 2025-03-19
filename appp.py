@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 app = FastAPI()
 
 # API Keys
-OPENWEATHER_API_KEY = "YOUR_OPENWEATHER_API_KEY"
+OPENWEATHER_API_KEY = "adfb6f58bdfeb75820ca2c3030de4cec"
 
 # Fetch traffic data from OpenStreetMap Overpass API
 def fetch_traffic_data(bbox):
