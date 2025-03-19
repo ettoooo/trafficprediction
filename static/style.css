@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 40px;
+}
+
+h1 {
+  color: #2C3E50;
+}
+
+#data-container {
+  background-color: #ECF0F1;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
